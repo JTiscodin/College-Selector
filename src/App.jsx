@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <div className="main .lxgw-wenkai-tc-regular">
-        <h1>Welcome to College Finder</h1>
+      <div className="main roboto">
+        <h1>Welcome to College Finder 🚀</h1>
         <SearchBox />
       </div>
     </>
