@@ -22,7 +22,7 @@ export default function SearchBox2() {
       timeOut.current = setTimeout(async () => {
         try {
           const response = await fetch(
-            `http://universities.hipolabs.com/search?name=${name}`
+            `https://universities.hipolabs.com/search?name=${name}`
           );
           const data = await response.json();
           setOptions(data.slice(0, Math.min(100, data.length)));
@@ -38,7 +38,7 @@ export default function SearchBox2() {
       timeOut.current = setTimeout(async () => {
         try {
           const response = await fetch(
-            `http://universities.hipolabs.com/search?name=${name}`
+            `https://universities.hipolabs.com/search?name=${name}`
           );
           const data = await response.json();
           setOptions(data.slice(0, Math.min(100, data.length)));
