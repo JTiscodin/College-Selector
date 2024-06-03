@@ -9,7 +9,10 @@ function App() {
 
   return (
     <>
-      <SearchBox />
+      <div className="main .lxgw-wenkai-tc-regular">
+        <h1>Welcome to College Finder</h1>
+        <SearchBox />
+      </div>
     </>
   );
 }
